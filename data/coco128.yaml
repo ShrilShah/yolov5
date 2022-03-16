@@ -8,9 +8,9 @@
 
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-train: data/dataset/images  # train images (relative to 'path') 128 images
-val: data/dataset/images  # val images (relative to 'path') 128 images
+train: data/masks/realTrain  # train images (relative to 'path') 128 images
+val: data/masks/realTrain  # val images (relative to 'path') 128 images
 
 # Classes
-nc: 7  # number of classes
-names: ['Chessboard', 'Pawn', 'Rook', 'Knight', 'Bishop', 'King', 'Queen']  # class names
+nc: 2  # number of classes
+names: ['no_mask', 'mask']  # class names
